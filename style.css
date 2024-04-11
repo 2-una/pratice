@@ -1,0 +1,58 @@
+html{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mainbox{
+    width: 800px;
+    margin:auto;
+    padding: 25px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 25px;
+}
+h2{
+    margin: 0;
+}
+/* sub-box */
+.sub-box{
+    margin-bottom: 30px;
+}
+/* title-box */
+.title-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.title-box-text{
+    margin-left: 25px;
+}
+.job-text{
+    color:cornflowerblue;
+    font-style: italic;
+}
+/* float */
+.float{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+/* section-title */
+.section-title{
+    border-bottom: 1px solid black;
+}
+/* desc-text */
+.desc-text{
+    margin-top: 0;
+}
+/* sns */
+.sns{
+    display: flex;
+    justify-content: flex-end;
+}
+.sns-img{
+    margin: 5px;
+}
+/* footer */
+footer{
+    text-align: center;
+}
